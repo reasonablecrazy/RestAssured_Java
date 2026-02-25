@@ -1,76 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-12T02:26:36 MST" name="Default suite" finished-at="2026-02-12T02:27:05 MST" duration-ms="28176">
+  <suite started-at="2026-02-24T23:41:17 MST" name="Suite" finished-at="2026-02-24T23:41:21 MST" duration-ms="4664">
     <groups>
     </groups>
-    <test started-at="2026-02-12T02:26:36 MST" name="Default test" finished-at="2026-02-12T02:27:05 MST" duration-ms="28176">
-      <class name="restAssuredBasics.FirstProgramRestAssured">
-        <test-method signature="e2eTestWithJSONfile(java.lang.String,java.lang.String)[pri:0, instance:restAssuredBasics.FirstProgramRestAssured@5c5eefef]" started-at="2026-02-12T02:26:36 MST" name="e2eTestWithJSONfile" data-provider="getData_JSON_file" finished-at="2026-02-12T02:26:51 MST" duration-ms="14225" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{
-  "location": {
-    "lat": -38.383494,
-    "lng": 33.427362
-  },
-  "accuracy": 50,
-  "name": "Frontline house",
-  "phone_number": "(+91) 983 893 3937",
-  "address": "29, side layout, cohen 09",
-  "types": [
-    "shoe park",
-    "shop"
-  ],
-  "website": "http://google.com",
-  "language": "French-IN"
-}
-]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[70 Hidden Drive, AB, Canada ]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2026-02-24T23:41:17 MST" name="Test" finished-at="2026-02-24T23:41:21 MST" duration-ms="4664">
+      <class name="restAssuredBasics.Jira_API_Suite">
+        <test-method is-config="true" signature="setup()[pri:0, instance:restAssuredBasics.Jira_API_Suite@77847718]" started-at="2026-02-24T23:41:17 MST" name="setup" finished-at="2026-02-24T23:41:17 MST" duration-ms="444" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- e2eTestWithJSONfile -->
-        <test-method signature="e2eTestWithValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:restAssuredBasics.FirstProgramRestAssured@5c5eefef]" started-at="2026-02-12T02:26:51 MST" name="e2eTestWithValidData" data-provider="getData" finished-at="2026-02-12T02:27:05 MST" duration-ms="13898" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Frontline house]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[French-IN]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[29, side layout, cohen 09]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[(+91) 983 893 3937]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[70 Hidden Drive, AB, Canada ]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setup -->
+        <test-method signature="createIssueUsingPOJO()[pri:0, instance:restAssuredBasics.Jira_API_Suite@77847718]" started-at="2026-02-24T23:41:17 MST" name="createIssueUsingPOJO" finished-at="2026-02-24T23:41:21 MST" duration-ms="4200" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- e2eTestWithValidData -->
-      </class> <!-- restAssuredBasics.FirstProgramRestAssured -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- createIssueUsingPOJO -->
+      </class> <!-- restAssuredBasics.Jira_API_Suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

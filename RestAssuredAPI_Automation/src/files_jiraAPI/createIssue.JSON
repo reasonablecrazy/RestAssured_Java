@@ -1,0 +1,26 @@
+	{
+	  "fields": {
+	    "project": {
+	      "key": "SCRUM"
+	    },
+	    "summary": "Button is not working",
+	    "issuetype": {
+	      "name": "Bug"
+	    },
+	    "description": {
+	      "type": "doc",
+	      "version": 1,
+	      "content": [
+	        {
+	          "type": "paragraph",
+	          "content": [
+	            {
+	              "text": "Creating of an issue using project keys and issue type names using the REST API",
+	              "type": "text"
+	            }
+	          ]
+	        }
+	      ]
+	    }
+	  }
+	}

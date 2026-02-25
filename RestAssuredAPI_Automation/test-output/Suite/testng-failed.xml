@@ -3,11 +3,12 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="restAssuredBasics.FirstProgramRestAssured">
+      <class name="restAssuredBasics.Jira_API_Suite">
         <methods>
-          <include name="e2eTestWithJSONfile" invocation-numbers="0"/>
+          <include name="createIssueUsingPOJO"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- restAssuredBasics.FirstProgramRestAssured -->
+      </class> <!-- restAssuredBasics.Jira_API_Suite -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
